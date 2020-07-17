@@ -1,0 +1,24 @@
+{
+  "name": "linkedin_search",
+  "version": "1.0.0",
+  "description": "Automation with Cypress to retrieve email from User on LinkedIn",
+  "main": "index.js",
+  "scripts": {
+    "cyo": "cross-env NODE_PATH=cypress cypress open",
+    "run": "cross-env NODE_PATH=cypress cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkallango/linkedin_search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkallango/linkedin_search/issues"
+  },
+  "homepage": "https://github.com/mkallango/linkedin_search#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "cypress": "^4.10.0"
+  }
+}
